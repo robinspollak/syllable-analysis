@@ -2233,7 +2233,6 @@ tenéis
 poca
 sorprende
 pared
-_
 pedirle
 limpio
 fantástico
@@ -2437,7 +2436,6 @@ equivocado
 quitar
 pollo
 papeles
-º
 araña
 tráeme
 muevas
@@ -5552,7 +5550,6 @@ rodilla
 quitas
 pública
 proviene
-nº
 miente
 kilo
 investigador
@@ -5960,7 +5957,6 @@ nieto
 mandan
 lila
 investigaciones
-he/she
 guardo
 elegí
 drama
@@ -9946,7 +9942,6 @@ traerán
 terremoto
 tendréis
 tardé
-tãº
 submarinos
 siervo
 senté
@@ -9998,3 +9993,11 @@ estreno
 establecido
 entrevistar
 enamoró
+ejecutado
+dormiremos
+donante
+disputa
+diabetes
+detengas
+despreciable
+desnudos

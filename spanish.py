@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-    
-strong_vowels = [u'a', u'e', u'o', u'á', u'é', u'ó', u'í', u'ú']
-weak_vowels = [u'i', u'u', u'y']
+strong_vowels = [u'a', u'e', u'o', u'á', u'à', u'é', u'ó', u'í', u'ú']
+weak_vowels = [u'i', u'u', u'y', u'ü']
 vowels = strong_vowels + weak_vowels
 single_consonants = [u'b', u'c', u'd', u'f', u'g', u'h', u'j', u'k', u'l', u'm', u'n', \
 			  u'ñ', u'p', u'q', u'r', u'rr', u's', u't', u'v', u'w', u'x', u'y', u'z']
@@ -30,7 +30,8 @@ def into_characters(word):
 			character_list.append(word[i])
 			i += 1
 		else:
-			raise Exception('Character not included in character list.')
+			print word[i]
+			raise Exception('Character %s not included in character list.' % (word[i])) 
 	return character_list
 
 def identify_syllable(character_list):
@@ -80,7 +81,10 @@ def spanish_syllabify(word):
 	i = 0
 	while len(character_list):
 		if len(character_list) == 1 and character_list[0] in consonants:
-			syllables[-1] += character_list[0]
+			if len(syllables):
+				syllables[-1] += character_list[0]
+			else:
+				syllables.append(character_list[0])
 			break
 		try:
 			syllable, character_list = identify_syllable(character_list)
