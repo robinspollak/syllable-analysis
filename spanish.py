@@ -71,11 +71,11 @@ def identify_syllable(character_list):
 				return (first + second, [third] + rest)
 
 def spanish_syllabify(word):
-	character_list = into_characters(word)
 	'''
 	splits a spanish word into syllables
 	reference: http://www.spanishdict.com/topics/show/116
 	'''
+	character_list = into_characters(word)
 	syllables = []
 	i = 0
 	while len(character_list):
