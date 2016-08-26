@@ -8,6 +8,11 @@ consonant_pairs = [u'bl', u'br', u'ch', u'cl', u'cr', u'dr', u'fl', u'fr', u'gl'
 consonants = single_consonants + consonant_pairs
 all_chars = strong_vowels + weak_vowels + consonants
 
+test_list = [u'sábana', u'gato', u'casa', u'toalla', u'feo', u'iguana', u'reina', u'tío',
+			 u'ciudad', u'creer', u'mano', u'oro', u'mesa', u'cuando', u'alcanzar', u'costa',
+			 u'éxito', u'sombrillo', u'clave', u'trabajo', u'aplicar', u'frequente', u'hecho',
+			 u'amarillo', u'carro', u'interrelacionado', u'enloquecer', u'merengue', u'atlántico']
+
 def into_characters(word):
 	character_list = []
 	i = 0
@@ -84,11 +89,3 @@ def spanish_syllabify(word):
 			syllables.append("".join(character_list))
 			character_list = []
 	return syllables
-
-test_list = [u'sábana', u'gato', u'casa', u'toalla', u'feo', u'iguana', u'reina', u'tío',
-			 u'ciudad', u'creer', u'mano', u'oro', u'mesa', u'cuando', u'alcanzar', u'costa',
-			 u'éxito', u'sombrillo', u'clave', u'trabajo', u'aplicar', u'frequente', u'hecho',
-			 u'amarillo', u'carro', u'interrelacionado', u'enloquecer', u'merengue', u'atlántico']
-
-for word in test_list:
-	print spanish_syllabify(word)
