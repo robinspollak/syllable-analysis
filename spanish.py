@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-    
-strong_vowels = [u'a', u'e', u'o', u'á', u'à', u'é', u'ó', u'í', u'ú']
+strong_vowels = [u'a', u'e', u'o', u'á', u'à', u'ã', u'â', u'é', u'è', u'ó', u'ò', u'í', u'ú', u'ù']
 weak_vowels = [u'i', u'u', u'y', u'ü']
 vowels = strong_vowels + weak_vowels
 single_consonants = [u'b', u'c', u'd', u'f', u'g', u'h', u'j', u'k', u'l', u'm', u'n', \
