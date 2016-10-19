@@ -6,4 +6,5 @@ are published on [Medium](https://medium.com/@RobinPollak/syllabification-is-a-f
 
 Code relevant to the splitting of words in the two languages are located in [english.py](https://github.com/robinspollak/syllable-analysis/blob/master/english.py) and [spanish.py](https://github.com/robinspollak/syllable-analysis/blob/master/spanish.py). The ingestion of the lists of words and the counting of syllables occurs in [main.py](https://github.com/robinspollak/syllable-analysis/blob/master/main.py).
 
-Questions and comments can be directed to [robin@pollak.io](mailto:robin@pollak.io) and improvements to the syllabification algorithms are greatly appreciated and can be opened as pull requests. 
+## Contact Me
+If this project interests you or if you have any questions or ideas feel free to open an issue (or even better a PR) or contact me [here](mailto:robin@pollak.io). You can also learn a bit more about me and check out some thngs I'm interested in [here](robin.pollak.io).
